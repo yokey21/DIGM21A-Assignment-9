@@ -44,11 +44,10 @@ h1 {
     }
 
 /* Tablet */
-@media (min-width: 480px) and (max-width: 800px) {
+@media (min-width: 481px) and (max-width: 768px) {
     img {
         width: 40vw;
         height: 40vw;
-        box-shadow: 2px 2px 4px green;
     }
 
     .div1 {
@@ -59,11 +58,10 @@ h1 {
 }
 
 /* Mobile */
-@media (min-width: 0px) and (max-width: 479px) {
+@media (min-width: 0px) and (max-width: 480px) {
     img {
         width: 90vw;
         height: 90vw;
-        box-shadow: 2px 2px 4px green;
     }
 
     .div1 {
