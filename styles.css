@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+/* Prevents content from going beyond the div */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(100, 188, 230, 0.667) url(assets/sky.jpg) no-repeat fixed
+        center center;
+    background-blend-mode: lighten;
+}
+
+h1 {
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    color: white;
+}
+
+img {
+    width: 30vw;
+    margin: 1vh;
+    box-shadow: 2px 2px 4px black;
+}
+
+a:hover {
+    opacity: 80%;
+}
+
+.div1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    flex-flow: row wrap;
+}
+h1 {
+        font-size: 40px;    
+    }
+
+/* Tablet */
+@media (min-width: 480px) and (max-width: 800px) {
+    img {
+        width: 40vw;
+        height: 40vw;
+        box-shadow: 2px 2px 4px green;
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 100px;
+    }
+}
+
+/* Mobile */
+@media (min-width: 0px) and (max-width: 479px) {
+    img {
+        width: 90vw;
+        height: 90vw;
+        box-shadow: 2px 2px 4px green;
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 100px;
+    }
+    h1 {
+        font-size: 30px;    
+    }
+}
